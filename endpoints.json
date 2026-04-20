@@ -1,0 +1,12 @@
+{
+  "function_one": {
+    "url": "https://your-api-url.com/lookup-device",
+    "token": "your token here",
+    "method": "GET_POSTGREST"
+  },
+  "function_two": {
+    "url": "https://your-api-url.com/set-command-device",
+    "token": "your token here",
+    "method": "POST"
+  }
+}
