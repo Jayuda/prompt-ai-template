@@ -1,12 +1,13 @@
 {
+  "_comment": "Ganti URL dan token di bawah dengan endpoint API kamu yang sebenarnya.",
   "function_one": {
-    "url": "https://your-api-url.com/lookup-device",
-    "token": "your token here",
-    "method": "GET_POSTGREST"
+    "url": "https://your-api-url.com/your-read-endpoint",
+    "token": "your-bearer-token-here",
+    "method": "GET"
   },
   "function_two": {
-    "url": "https://your-api-url.com/set-command-device",
-    "token": "your token here",
+    "url": "https://your-api-url.com/your-write-endpoint",
+    "token": "your-bearer-token-here",
     "method": "POST"
   }
 }
